@@ -1,0 +1,25 @@
+{
+  "name": "locavore",
+  "version": "0.1.0",
+  "description": "Mozu extension for upgrading locations to full-fledged pages",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-debug-task": "^0.1.6",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-mozu-appdev-sync": "^0.4.3",
+    "load-grunt-tasks": "^3.2.0",
+    "mocha": "^2.2.5",
+    "mozuxd-simulator": "^1.1.2",
+    "time-grunt": "^1.2.1"
+  },
+  "dependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "mozu-extension-helpers": "0.0.3"
+  }
+}
