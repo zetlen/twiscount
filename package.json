@@ -1,13 +1,14 @@
 {
-  "name": "locavore",
+  "name": "Twiscount",
   "version": "0.1.0",
-  "description": "Mozu extension for upgrading locations to full-fledged pages",
+  "description": "tweet to get a discount on a mozu store",
   "scripts": {
     "test": "grunt test"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.8.0",
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-debug-task": "^0.1.6",
@@ -19,7 +20,7 @@
     "time-grunt": "^1.2.1"
   },
   "dependencies": {
-    "grunt-contrib-clean": "^0.6.0",
-    "mozu-extension-helpers": "0.0.3"
+    "mozu-extension-helpers": "0.0.3",
+    "twitter": "^1.2.5"
   }
 }

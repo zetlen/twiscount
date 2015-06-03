@@ -23,19 +23,7 @@ module.exports = function (grunt) {
                     browserifyOptions: {
                         standalone: 'index',
                         commondir: false,
-                        builtins: [
-                            'util',
-                            'path',
-                            'url',
-                            'string_decoder',
-                            'events',
-                            'punycode',
-                            'querystring',
-                            'dgram',
-                            'dns',
-                            'assert',
-                            'tls'
-                        ],
+                        builtins: false,
                         insertGlobals: false,
                         detectGlobals: false
                     }
